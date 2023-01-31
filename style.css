@@ -1,0 +1,21 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+li {
+  width: 100%;
+  padding-block: 10px;
+  border-left: solid black 1px;
+  text-align: center;
+  list-style: none;
+  background-color: rgb(255, 201, 201);
+}
+li:first-child {
+  border-left: none;
+}
+a {
+  text-decoration: none;
+}
